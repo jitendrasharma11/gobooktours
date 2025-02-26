@@ -1,0 +1,800 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Work Sans", serif;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    box-shadow: 0px 0px 0px 1px #ccc;
+}
+.headermid{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.headermid-left{
+   flex-basis: 17%;
+}
+.headermid-left img{
+    width: 75%;
+}
+.headermid-middle{
+    flex-basis: 10%;
+    opacity: 0;
+}
+.headermid-middle i{
+    font-size: 40px;
+}
+.headermid-right{
+    flex-basis: 40%;
+}
+.headermid-right ul{
+    display: flex;
+}
+.headermid-right ul li{
+    padding: 30px 30px;
+    display: flex;
+    gap: 5px;
+}
+.headermid-right ul li a{
+    font-size: 17px;
+    font-weight: 400;
+    color: #5C1C4B;
+}
+.megamenu{
+    width: 80%;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    left: 20%;
+    top: 96%;
+    border-radius: 10px;
+    transition: 0.5;
+    transform: scaleY(0);
+    transform-origin: top;
+    padding: 20px;
+}
+.headermid-right ul li:hover .megamenu{
+    transform: scaleY(1);
+}
+.megamenu>h3{
+    font-size: 20px;
+    color: #5C1C4B;
+    font-weight: 400;
+}
+.bordermenu{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+}
+.submenu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.submenuitems{
+    flex-basis: 24%;
+    padding: 15px 0px;
+}
+.textb{
+    background-color: #F8F9FA;
+    border-radius: 10px;
+    padding: 20px;
+}
+.textb2{
+    background-color: white;
+    padding: 20px;
+}
+.submenuitems h3{
+    font-size: 23px;
+    color: #5C1C4B;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.submenuitems p {
+    font-size: 16px;
+    color: #5C1C4B;
+    padding: 5px 0px;
+}
+.bordersb{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0px;
+}
+.banner{
+    width: 100%;
+}
+.banner-mid{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    margin-top: 25px;
+    gap: 15px;
+}
+.banner-midleft{
+    flex-basis: 60%;
+    background: url(Images/india-holidays.jpg) no-repeat center center;
+    border-radius: 15px;
+    padding: 185px 0px;
+}
+.banner_midleftcontent {
+    max-width: 600px;
+    margin: auto;
+}
+.banner_midleftcontent p{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+.banner_midleftcontent form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+.banner_midleftcontent form input{
+    flex-basis: 90%;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.searchicon i{
+    color: white;
+    background-color: #5C1C4B;
+    padding: 10px 15px;
+    border-radius: 0px 5px 5px 0px;
+}
+.banner-midright{
+    flex-basis: 32%;
+    border-radius: 15px;
+    background: url(Images/india-nepal-bhutan-tour.jpg);
+    background-size: cover;
+    padding-top: 300px;
+    padding-left: 30px;
+}
+.banner-midright span{
+     color: black;
+     background-color: aliceblue;
+     padding: 6px 20px;
+     border-radius: 15px;
+}
+.banner-midright h2{
+    font-size: 28px;
+    padding: 10px 0px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.banner-midright p{
+    color: aliceblue;
+}
+.highlights{
+    width: 100%;
+    padding: 25px 0px;
+}
+.highlights-mid{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.highlights-miditems{
+    flex-basis: 30%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 10px ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px #ccc;
+}
+.img{
+    flex-basis: 10%;
+}
+.img img{
+   width: 50px;
+}
+.content{
+    flex-basis: 70%;
+}
+.content h5{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.content p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.trending{
+    width: 100%;
+    padding: 20px 0px;
+}
+.trending-midhd{
+    max-width: 1320px;
+    margin: auto;
+}
+.treding_mid{
+    max-width: 1320px;
+    margin: auto;  
+}
+.treding_mid h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.images{
+    flex-basis: 100%;
+    display: flex;
+    gap:20px
+}
+figure{
+    position: relative;
+}
+figure img{
+    border-radius: 15px;
+}
+.imgoverlay{
+    position: absolute;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.contentoverlay{
+    position: absolute;
+    bottom: 11%;
+    left: 5%;
+}
+.contentoverlay h3{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contentoverlay p{
+    color: aliceblue;
+    font-size: 15px;
+}
+.images_1{
+    flex-basis: 75%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.images_1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.imageoverlay{
+    position: relative;
+}
+.imageoverlaybg{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 97%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imageoverlaycontent{
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+    color: white;
+}
+.imageoverlaycontent p{
+    margin-top: 10px;
+}
+.topholiday{
+    width: 100%;
+    margin-bottom: 30px;
+    margin: 10px;
+}
+.topholiday-mid{
+    max-width: 1320px;
+    margin: auto;
+}
+.topholiday-mid h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+.topholiday-img{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.topholiday-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.topoverlay{
+    position: relative;
+}
+.topimgoverlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.topcontentoverlay{
+    position: absolute;
+    bottom: 8%;
+    color: white;
+    left: 20px;
+    font-size: 15px;
+}
+.topcontentoverlay h3{
+    font-size: 25px;
+}
+.tours{
+    width: 100%;
+    padding: 40px 0px;
+}
+.tours-mid{
+    max-width: 1320px;
+    margin: auto;
+}
+.tours-mid h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;   
+}
+.tours-img{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.tours-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.tours-overlay{
+    position: relative;
+}
+.tours-overlay-shadow{
+    width: 100%;
+    position: absolute;
+    height: 99%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.content-img{
+    position: absolute;
+    bottom: 8%;
+    left: 15px;
+}
+.content-img h5{
+    font-size: 19px;
+    color: white;
+    margin-bottom: 10px;
+}
+.content-img p{
+    font-size: 17px;
+    color: white
+    
+}
+.package{
+    width: 100%;
+    background-color :#EFEEEE;
+    padding: 56px 0px;
+}
+.packagemid{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.packagemid-list{
+    flex-basis: 24%;
+    border-radius: 15px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+.packagemid-list img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.heading{
+    max-width: 1320px;
+    margin: auto;
+}
+.heading h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;   
+}
+.packagemid-list h4{
+    padding: 16px 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.boader{
+    border-bottom: 1px solid lightgrey;
+}
+.viewdetail{
+    display: flex;
+    padding: 0px 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.viewdetail span{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.viewdetail button{
+    padding: 12px 15px;
+    background-color: #5C1C4B;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.sellers{
+    width: 100%;
+    padding: 40px 0px;
+}
+.sellersmid{
+    max-width: 1320px;
+    margin: auto;
+}
+.sellersmid h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+.sellersmidimg{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+.sellersmidimg-items{
+    flex-basis: 32%;
+    position: relative;
+}
+.sellersmidimg-items img{
+    width: 100%;
+    border-radius: 15px;
+}
+.sellersmidimg-items button{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    padding: 10px 15px;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.over{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    top: 0;
+    bottom: o;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contentoverlay{
+    position: absolute;
+    bottom: 8%;
+    left: 2%;
+}
+.contentoverlay h5{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.contentoverlay p{
+    font-size: 16px;
+    color: white;
+}
+.blog{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #FAF9F9;
+}
+.blogmid{
+    max-width: 1320px;
+    margin: auto;
+}
+.blogmid h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.blogmid b{
+    text-decoration: underline;
+    color: #5C1C4B;
+}
+.post{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.postsection{
+    flex-basis: 32%;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px #ccc;
+}
+.postsection img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.postcontent{
+    padding: 10px 15px;
+}
+.postcontent h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.postcontent p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.faqs{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 40px 0px;
+}
+.star{
+    max-width:1450px;
+    margin: auto;
+    background-color: #CCCDCE;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+.star span img{
+    width: 120px;
+}
+.star{
+    color: white;
+}
+.footermenu{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footermenu1{
+    flex-basis: 30%;
+}
+.footermenu1 h3{
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footermenu1 ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0px;
+}
+.footermenu1 ul li p{
+    color: white;
+}
+.footermenu1 ul li i{
+    color: white;
+}
+.footerborder{
+    max-width: 1320px;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+}
+.footer2{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer2c1{
+    flex-basis: 30%;
+    display: flex;
+    color: white;
+}
+.footer2c2{
+    flex-basis: 37%;
+    color: white;
+}
+.footer2c3{
+    flex-basis: 20%;
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+/*India Tour Package */
+
+.tourpackage{
+    width: 100%;
+    padding: 42px 0px;
+}
+.tourpackagemid{
+    max-width: 1320px;
+    margin: auto;
+}
+.tourpackagemid h3{
+    font-size: 29px;
+    font-weight: 500;
+}
+.tourpackagemid p{
+    margin: 20px 0px;
+    line-height: 21px;
+}
+.pricelisttour{
+    max-width: 1320px;
+    margin: auto;
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.pricelisttouritems{
+     flex-basis: 23%;
+     border-radius: 15px;
+     border: 1px solid #ccc;
+     padding-bottom: 30px;
+}
+.pricelisttouritems img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.pricelisttouritems h3{
+    font-size: 19px;
+    padding: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.pricelisttouritems .borders{
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid #ccc;
+}
+.pricelisttouritems p{
+    margin-left: 20px;
+}
+.pricelisttouritems .view{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.view h5{
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.view button{
+    padding: 10px 14px;
+    background-color: #5C1C4B;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.readmore{
+    background-color: #000000;
+    border-radius: 15px;
+}
+.readmore p{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 25px;
+}
+.newsletter{
+    width: 100%;
+    padding: 40px 0px;
+}
+.newslettermid{
+    max-width: 700px;
+    margin: auto;
+}
+.newslettermid form{
+    display: flex;
+    gap: 15px;
+}
+.newslettermid form input{
+    width: 80%;
+    padding: 20px 10px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 20px;
+}
+.newslettermid form button{
+    padding: 20px 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: #198754;
+    border: none;
+    font-size: 20px;
+}
+
+/* faq */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 20px 0px;
+}
+.faqsInner{
+    max-width: 1320px;
+    margin: auto;
+}
+.faqsItems{
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+}
+.faqsItems h3{
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.faqsItems h3 span{
+    position: absolute;
+    right: 15px;
+}
+.faqsItems p{
+    padding: 10px;
+    font-size: 18px;
+    display: none;
+    line-height: 30px;
+}
+.showPara{
+    display: block !important;
+}
+.faqsItems h3.active {
+    background-color: #5C1C4B;
+    color: aliceblue;
+}

@@ -1,0 +1,180 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .headermid{
+        justify-content: space-between;
+        padding: 20px 10px;
+        align-items: center;
+    }
+    .headermid-left{
+        flex-basis: 70%;
+    }
+    .headermid-left img{
+        width: 90%;
+    }
+    .headermid-middle{
+        flex-basis: 20%;
+        opacity: 1;
+    }
+    .headermid-middle i {
+        font-size:30px;
+        margin-left: 30px;
+    }
+    .headermid-right{
+        display: none;
+    }
+    .banner-mid {
+       flex-direction: column;
+       margin: 0px 10px;
+    }
+    .banner-midleft{
+        margin-top: 20px;
+        padding: 150px 0px;
+    }
+    .banner_midleftcontent form {
+        width: 84%;
+        margin: auto;
+    }
+    .banner-midright{
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+    .banner-midright h2 {
+        font-size: 20px;
+    }
+    .highlights-mid{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .images{
+        flex-direction: column;
+    }
+    .images_1{
+        flex-basis: 75%;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    .treding_mid h3 {
+        font-size: 31px;
+        margin-left: 10px;
+    }
+    .imgoverlay {
+        width: 95%;
+    }
+    .topholiday-mid h3 {
+        font-size: 31px;
+        font-weight: 500;
+    }
+    .sellersmid h3 {
+        margin-left: 10px;
+    }
+    .topholiday-img{
+        width: 95%;
+        grid-template-columns: auto;
+    }
+    .tours-mid h3 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .topholiday-mid h3 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .tours-img{
+        width: 96%;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        margin: auto;
+    }
+    .package{
+        width: 100%;
+    }
+    .packagemid{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .packagemid-list{
+        margin: 0px 10px ;
+    }
+    .heading h3 {
+       margin-left: 10px;
+    }
+    .sellersmidimg{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sellersmidimg-items{
+        margin: 0px 10px;
+    }
+    .post{
+        flex-direction: column;
+    }
+    .postsection{
+        margin: 15px 10px;
+    }
+    .postcontent h3 {
+        font-size: 21px;
+    }
+    .blogmid>h3{
+        margin-left: 10px;
+    }
+    .blogmid>p{
+        margin-left: 10px;
+    }
+    .faqsmid>h3{
+        font-size: 21px;
+        margin: 0px 10px;
+    }
+    .faqstext1 h3{
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+    .faqstext1{
+       margin: 0px 20px;
+    }
+    .footermenu{
+        flex-direction: column;
+    }
+    .footer2{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .footermenu1{
+        margin-left: 20px;
+    }
+    .footer2c1{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer2c3{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer2{
+        gap: 20px;
+    }
+    .pricelisttour{
+        grid-template-columns: auto;
+    }
+    .tourpackagemid h3 {
+        margin-left: 10px;
+    }
+    .tourpackagemid p {
+        margin-left: 10px;
+    }
+    .pricelisttouritems{
+        margin: 10px;
+    }
+    .readmore{
+        margin: 10px;
+    }
+    .newslettermid form{
+        gap: 1opx;
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:992px){
+
+}
